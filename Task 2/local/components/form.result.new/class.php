@@ -34,11 +34,11 @@ class CustomFormResultNewComponent extends CBitrixComponent
     {
         $formId = $this->arParams["FORM_ID"];
         $formValues = [
-            "name" => $this->request->getPost("medicine_name"),
-            "company" => $this->request->getPost("medicine_company"),
-            "email" => $this->request->getPost("medicine_email"),
-            "phone" => $this->request->getPost("medicine_phone"),
-            "message" => $this->request->getPost("medicine_message")
+            "form_text_1" => $this->request->getPost("medicine_name"),
+            "form_text_2" => $this->request->getPost("medicine_company"),
+            "form_email_3" => $this->request->getPost("medicine_email"),
+            "form_text_4" => $this->request->getPost("medicine_phone"),
+            "form_textarea_5" => $this->request->getPost("medicine_message")
         ];
 
         $errors = [];
