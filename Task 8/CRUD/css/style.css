@@ -1,0 +1,41 @@
+img.default {
+    height: 100px;
+    width: 100px;
+}
+
+.full-item {
+    margin: 10px;
+    display: inline-block;
+}
+a{
+    display: inline-block;
+    padding: 10px 15px;
+    background: rgba(0, 173, 255, 0.75);
+    border-radius: 3px;
+    border: 1px solid #254e9a;
+    color: #333333;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover, a:focus {
+    background: #d8d8f1;
+}
+.upload-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.upload-form input[type="file"] {
+    display: block;
+    margin: 20px 0;
+}
+.upload-form input[type="submit"] {
+    background: #d8d8f1;
+    border-radius: 3px;
+    border: 1px solid #254e9a;
+    color: #333333;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
